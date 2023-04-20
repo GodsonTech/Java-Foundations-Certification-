@@ -1,0 +1,9 @@
+intro to java : basic syntax, comparison operators, if else/switch-case statement, logical operators, loops, debuggig
+data types and variables, integers and real numbers, type conversions and casting, boolean, character, string types
+arrays, processing arrays, for each loop, printing arrays, simple array algorithms 
+methods, declaring and invoking methods, parameters, value vs reference types, method overloading 
+lists- reading, printing and processing lists, basic list algorithms, sorting lists and arrays 
+text processing - strings, reading, printing and processing text using standard string methods and classes 
+associative arrays, lambda and stream api - maps, hashmap, linkedhashmap, treemap, lambda functions, filtering, mapping and processing sequences and maps
+objects and classes
+defining classes (constructors, fields, properties)
