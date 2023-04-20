@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+//loops are if statements that repeat themselves
+    Scanner scanner = new Scanner(System.in);
+    int maxNumber = scanner.nextInt();
+
+    int currentNumber = 0;
+    while(currentNumber < maxNumber){//while returns to the condition and checks the condition again 
+      System.out.println(currentNumber);
+      currentNumber++;
+    }
+
+    //for loop executes statements a fixed number of times
+    for (int i = 1; i<= 10; i++){ //starting from initial position and ending in a specific position and incrementing the variable it uses to iterate through the for loop 
+      System.out.println("i = " + i);
+    }
+
+    int maxNumber = 100;
+    for (int currentNumber = 1; currentNumber <= maxNumber; currentNumber++){ //this starts from current number then checks the condition then goes to the body then increments the current number last
+      if(currentNumber % 3 == 0){
+        System.out.println(currentNumber);
+      }
+    }
+    
+  }
+}
