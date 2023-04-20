@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    //System.out.println("Hello world!");
+    // defining variables
+    // {data type} {variable name} = {value}
+
+    new Scanner(System.in);
+
+    int numApples  = scanner.nextInt();//this reads integer
+    String name = scanner.nextLine();//this reads line from console 
+    //int numApples = 6;
+
+    String word  = scanner.next();//next reads words 
+
+    //Convert string from nextLine to number by parsing
+    int age = Integer.parseInt(sc.nextLine());
+    double salary = Double.parseDouble(sc.nextLine());
+    numApples++;
+
+  //System.out.print();
+  //System.out.println();//this adds a new line character at the end 
+    String myName = "Godson";
+    int myAge = 20;
+    System.out.printf("Name: %s, Age: %d%n", name, age);
+    //%s this is string format, %d this is digits, %n adds a new line. This prints directly to the console
+    String result = String.format("Name: %s, Age: %d", name, age);//this also formats the string but does not  print to console
+
+  
+    Scanner scanner = new Scanner(System.in);  
+    String studentName = scanner.nextLine();
+    int studentAge = Integer.parseInt(scanner.nextLine());//parseInt converts the string into an integer
+    double avgGrade = Double.parseDouble(scanner.nextLine());
+
+    String studentInput = String.format("Name: %s, Age: %d, Grade: %.2f", studentName, studetnAge, avgGrade);
+    System.out.println(studentInput);
+    
+  }
+}
