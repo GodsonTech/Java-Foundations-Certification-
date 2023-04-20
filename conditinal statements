@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+//you can place if-else statements inside other if-else statements 
+//code below outputs +30mins to time input from user
+    int  hours = Integer.parseInt(sc.nextLine());
+    int minutes = Integer.parseInt(sc.nextLine()) + 30);
+
+    if (minutes > 59){
+      hours += 1; //when minutes is greater than 59 hours increases by 1
+      minutes -= 60;//when minutes is greather than 59 reduce minutes by 60 which sets it to 0
+
+      if (hours > 23){
+        hours = 0;
+      }
+      if (minutes < 10){
+        System.out.printf("%d:%02d%n", hours, minutes);
+      }else{
+        System.out.printf("%d:%d", hours, minutes);
+      }
+    }
+
+    //Swtich and case statements
+    String country = scanner.nextLine();//this stores input into country
+    String Language;
+    
+    switch(country){
+      case "England":
+      case:"USA":
+        language = "English";
+        break;
+      case "Spain":
+      case "Argentina":
+      case "Mexico":
+        language = "Spanish";
+        break;
+      default;
+        language = "Unknown";
+        break;
+
+        System.out.println(language);//this prints the language from scanner input 
+        
+    }
+    }
+  }
+}
