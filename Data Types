@@ -1,0 +1,29 @@
+INTEGER DATA TYPES:
+byte 8 bit e.g. byte centuries = 20;
+short 16 bit e.g. short years = 2000;
+int 32 bit e.g. int days = 9384983;
+long 64 bit e.g. long hours = 389302393984;
+
+Minimize the amount of memory you  are using by picking data types which can save lower values 
+
+Pound to Dollars: 
+
+Scanner scanner - new Scanner(System.in);
+double pounds = scanner.nextDouble();
+
+double dollars = pounds * 1.31;
+
+System.out.printlnf("%.3f%n", dollars);
+
+Implict type conversion: variable of bigger type take smaller value 
+e.g. 
+float heightInMeters = 1.74f;
+double maxHeight = heightInMeters;
+
+Explicit type conversion: precision is lost  
+
+BOOLEAN DATA TYPE: variables that hold true or false
+
+CHARACTER DATA TYPE: char keyword
+
+STRING DATA TYPE
